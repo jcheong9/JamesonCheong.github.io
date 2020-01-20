@@ -1,106 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>
-        Jameson Cheong home page
-    </title>
-    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
-    <style>
-        body {
-            background-color: #F0E9E4;
-            font-family: 'Nunito', sans-serif;
-            padding: 40px;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>Artist App</title>
 </head>
 <body>
-<h1>
-    Jameson Cheong
-</h1>
-<h2>About me</h2>
-<p>
-    Jameson Cheong is a 26-year-old professional sports person who enjoys tennis, social media and recycling. He is kind and nice, but can also be very sport and a bit not cool.
 
-    He is Canadian. He started studying sports science at college but never finished the course. He is obsessed with colouring in.
-    
-    Physically, Jameson is in pretty good shape. He is average-height with light skin, copper hair and brown eyes. He has asymmetrical ears.
-    
-    He grew up in a working class neighbourhood. After his father died when he was young, he was raised by his mother
-    
-    He is currently in a relationship with Kenyon Madelaine Montgomery. Kenyon is 10 years older than him and works as a legal secretary.
-    
-    Jameson has one child with girlfriend Kenyon: Moe aged 0.
-    
-    Jameson's best friend is a professional sports person called Denica Hawkins. They are inseparable. He also hangs around with Ami Dale and Angus Hartley. They enjoy swimming together.
-</p>
-<table>
-    <tr>
-        <th>Courses (Winter 2020)</th>
-        <th>&nbsp;&nbsp;&nbsp;4711 Labs</th>
-    </tr>
-    <tr>
-        <td>
-            <ul>
-                <li>
-                    <a href="https://www.bcit.ca/study/outlines/20201047992">COMP 4711</a>
-                </li>
-            </ul>
-        </td>
-        <td>
-            <ul>
-                <li>
-                    <a href="#">Lab 1</a>
-                </li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <ul>
-                <li>
-                    <a href="https://www.bcit.ca/study/outlines/20201015509">COMP 4985</a>
-                </li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <ul>
-                <li>
-                    <a href="https://www.bcit.ca/study/outlines/20201015508">COMP 4981</a>
-                </li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <ul>
-                <li>
-                    <a href="https://www.bcit.ca/study/outlines/20201073687">COMP 4735</a>
-                </li>
-            </ul>
-        </td>
-    </tr>
+    <div class="center">
+        <div class="inputSearch">
+            <h1>Artist Directory</h1>
+            <form method="POST" action="/addnewuser">
+                <input type="text" name="name" />
+            </form>
+        </div>
+        <div class="list">
+            <div class="listBox">
+                <div>
+                    <img src="https://randomuser.me/api/portraits/med/women/1.jpg">
+                </div>
+                <div class="listBoxText">
+                    <h3>Barot Bellingham</h3>
+                    <h5>Royal Academy of Paiting and Sculpture</h5>
+                </div>
+            </div>
+            <div class="listBox">
+                <div>
+                    <img src="https://randomuser.me/api/portraits/med/women/2.jpg">
+                </div>
+                <div class="listBoxText">
+                    <h3>Barot Bellingham</h3>
+                    <h5>Royal Academy of Paiting and Sculpture</h5>
+                </div class="listBoxText">
+            </div>
+            <div class="listBox">
+                <div>
+                    <img src="https://randomuser.me/api/portraits/med/men/7.jpg">
+                </div>
+                <div class="listBoxText">
+                    <h3>Jonathan G. Ferrar II</h3>
+                    <h5>Artist to Watch in 2012</h5>
+                </div>
+            </div>
+            <div class="listBox">
+                <div>
+                    <img src="https://randomuser.me/api/portraits/med/men/5.jpg">
+                </div>
+                <div class="listBoxText">
+                    <h3>Taylor Swift</h3>
+                    <h5>New York University</h5>
+                </div>
+            </div>
+            <div class="listBox">
+                <div>
+                    <img src="https://randomuser.me/api/portraits/med/women/3.jpg">
+                </div>
+                <div class="listBoxText">
+                    <h3>Hassum Harrod</h3>
+                    <h5>Art College in New Dehil</h5>
+                </div>
+            </div>
 
-    <tr>
-        <td>
-            <ul>
-                <li>
-                    <a href="https://www.bcit.ca/study/outlines/20201087617">MATH 3042</a>
-                </li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <ul>
-                <li>
-                    <a href="https://www.bcit.ca/study/outlines/20201012716">BLAW 3600</a>
-                </li>
-            </ul>
-        </td>
-    </tr>
+        </div>
 
-</table>
+    </div>
+
 </body>
 </html>
