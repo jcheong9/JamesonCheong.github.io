@@ -10,60 +10,21 @@
     <div class="center">
         <div class="inputSearch">
             <h1>Artist Directory</h1>
-            <form method="POST" action="/addnewuser">
-                <input type="text" name="name" />
-            </form>
+            <div class="formSearch">
+                <form id="inputTag" method="POST" action="/addnewuser">
+                    <input id="inputField" type="text" name="name" />
+                </form>
+                <button id="inputBtn" onclick='displayFormArtist(this)' type="button">Add artist</button>
+            </div>
         </div>
-        <div class="list">
-            <div class="listBox">
-                <div>
-                    <img src="https://randomuser.me/api/portraits/med/women/1.jpg">
-                </div>
-                <div class="listBoxText">
-                    <h3>Barot Bellingham</h3>
-                    <h5>Royal Academy of Paiting and Sculpture</h5>
-                </div>
-            </div>
-            <div class="listBox">
-                <div>
-                    <img src="https://randomuser.me/api/portraits/med/women/2.jpg">
-                </div>
-                <div class="listBoxText">
-                    <h3>Barot Bellingham</h3>
-                    <h5>Royal Academy of Paiting and Sculpture</h5>
-                </div class="listBoxText">
-            </div>
-            <div class="listBox">
-                <div>
-                    <img src="https://randomuser.me/api/portraits/med/men/7.jpg">
-                </div>
-                <div class="listBoxText">
-                    <h3>Jonathan G. Ferrar II</h3>
-                    <h5>Artist to Watch in 2012</h5>
-                </div>
-            </div>
-            <div class="listBox">
-                <div>
-                    <img src="https://randomuser.me/api/portraits/med/men/5.jpg">
-                </div>
-                <div class="listBoxText">
-                    <h3>Taylor Swift</h3>
-                    <h5>New York University</h5>
-                </div>
-            </div>
-            <div class="listBox">
-                <div>
-                    <img src="https://randomuser.me/api/portraits/med/women/3.jpg">
-                </div>
-                <div class="listBoxText">
-                    <h3>Hassum Harrod</h3>
-                    <h5>Art College in New Dehil</h5>
-                </div>
-            </div>
+        <div class="list" id = "listMain">
+
+            <!-- <div class="listBox">
+            </div> -->
 
         </div>
 
     </div>
-
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
