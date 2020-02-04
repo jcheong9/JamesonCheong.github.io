@@ -3,7 +3,7 @@ var toggleArtistInput = false;
 
 
 function displayFormArtist() {
-    let parent = document.getElementById("listMain")
+    let parent = document.getElementById("inputFields")
     let node = document.createElement("form");
     let div = document.createElement("div");
     let inputArtistName = document.createElement("input");
