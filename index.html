@@ -12,7 +12,7 @@
             <h1>Artist Directory</h1>
             <div class="formSearch">
                 <form id="inputTag" method="POST" action="/addnewuser">
-                    <input id="inputField" type="text" name="name" />
+                    <input id="inputField" type="text" name="name" onkeyup="searchArtist()"/>
                 </form>
                 <button id="inputBtn" onclick='displayFormArtist(this)' type="button">Add artist</button>
             </div>
